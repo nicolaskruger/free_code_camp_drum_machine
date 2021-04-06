@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#root{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+#drum-machine{
+  border: 1px solid black;
+}
+
+#drum-pads{
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+  background-color: black;
+  gap: 1px;
+}
+.drum-pad-li{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+}
+.drum-pad{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+#display{
+  border-bottom: 1px solid black;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
